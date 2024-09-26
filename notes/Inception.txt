@@ -1,0 +1,33 @@
+1)what is emmet
+emmet is a toolkit or plugin that helps web developers write html and css code faster and more efficiently
+emmet can help you save time and effort by generating boilerplate code automatically 
+it also also  help reduce typos and missing tag
+
+2)what is diifernce between libray and framwork
+Definition	  A set of tools you can use.  	A complete structure for building apps.
+Control	 You control the flow.	          The framework controls the flow.
+Usage	Call it when you need it.	        Follow its rules and structure.
+Example	React, jQuery	Angular, Ruby on Rails
+Flexibility	More flexible in use.	Less flexible, follows a set pattern.
+Learning Curve	Easier to learn and use.	Takes more time to learn.
+
+
+3)What is CDN? Why do we use it?
+
+A CDN (content delivery Network) is a sytem of distributed servers that deliver web content like images,video stylesheet script and other resources ti users based on their geographic location 
+
+
+Benefits of Using a CDN:
+Faster Loading: Content loads quicker because it comes from a server closer to the user.
+
+Reliable Access: If one server fails, backup servers ensure the content is still available.
+
+Handles Traffic Spikes: CDNs can manage lots of visitors at once without slowing down.
+
+Worldwide Availability: Servers around the globe make content accessible to users everywhere.
+
+Better Security: Many CDNs protect against attacks and secure content.
+
+Lower Bandwidth Costs: Caching reduces the amount of data transferred from the main server.
+
+Improved SEO: Faster websites can rank better in search engines, leading to more visitors.
