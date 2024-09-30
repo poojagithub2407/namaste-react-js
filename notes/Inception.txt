@@ -14,7 +14,8 @@ Learning Curve	Easier to learn and use.	Takes more time to learn.
 
 3)What is CDN? Why do we use it?
 
-A CDN (content delivery Network) is a sytem of distributed servers that deliver web content like images,video stylesheet script and other resources ti users based on their geographic location 
+A CDN (content delivery Network) is a sytem of distributed servers that deliver web content like images,video stylesheet script and other 
+resources ti users based on their geographic location 
 
 
 Benefits of Using a CDN:
@@ -31,3 +32,108 @@ Better Security: Many CDNs protect against attacks and secure content.
 Lower Bandwidth Costs: Caching reduces the amount of data transferred from the main server.
 
 Improved SEO: Faster websites can rank better in search engines, leading to more visitors.
+
+4)Why is React known as React?
+React is called "React" because it is designed to react efficiently to changes in data. When the data or state of an application
+ changes, React's virtual DOM updates only the specific parts of the user interface (UI) that need to be changed, rather than
+ re-rendering the entire page. This responsive behavior allows React to "react" to updates in a fast and optimized way, ensuring 
+a smoother user experience.
+
+React is a JavaScript library that's called "React" because it reacts to changes in a component's state or props
+
+5)What is diference between React and ReactDOM
+React: It is the core library used to build components and manage the state and logic of a user interface.
+ReactDOM: It is a library that connects React components to the DOM (Document Object Model), enabling React to render components in the browser.
+In short, React handles the logic, and ReactDOM handles the rendering to the browser.
+
+
+6) What is crossorigin in script tag?
+The crossorigin attribute in an HTML script tag sets the request mode to an HTTP CORS request. This attribute is used when a script on one domain needs
+ to interact with or fetch resources from another domain. 
+Here are some things to know about the crossorigin attribute: 
+A cross-origin request is a request for a resource from another domain, such as a script, image, font, iframe, or style sheet. 
+The crossorigin attribute is widely available and works across many browsers and devices. It has been available in browsers since July 2015. 
+
+
+7)What is difference between react.development.js and react.production.js files via CDN?
+
+The difference between react.development.js and react.production.js files via CDN is based on their purpose and optimization:
+
+react.development.js: This file is meant for development purposes. It includes helpful error messages, warnings, and full debugging features to assist developers while building the application.
+ However, it is larger and slower because of these extra tools.
+
+react.production.js: This file is optimized for production. It is smaller, faster, and excludes the development-specific features like warnings and detailed error messages to improve performance
+ for live applications.
+
+In short:
+
+Development: Bigger, slower, includes debugging tools.
+Production: Smaller, faster, optimized for users.
+
+
+package and dependience are same
+
+what differnce between git and github
+what is npm?
+npm manges packeage in behind work as node packger
+it standard reporiatory that mange package 
+
+what is package.json
+package.json is configuration for npm
+
+what buldler?
+vite,parcel and webpack is bulder
+
+for installing pracel
+npm install -D parcel
+
+two type depencies or package
+1)normal depenecies'
+it use in production 
+2)dev-depenecies
+it require  in develoment
+
+symbol
+^:it is update minor version it is safe
+~:it is update major version 
+
+what package.json and package.lock.json
+package.json
+package.lock.json :kept track of extract version of dependences
+
+
+node_module:it contain all code node package
+npx parcel index.html
+
+what npx and npm 
+how to install react
+npm i react  react-dom
+
+import React  from 'react';
+import ReactDOM from './react-dom./client'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
